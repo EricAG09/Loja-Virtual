@@ -15,7 +15,7 @@ export const finishPurchase = (cart) => {
     const mensagem = `Novo pedido realizado:%0A%0A${pedido}%0A%0A*Total:* R$${total.toFixed(2)}`;
   
     // Gera o link para WhatsApp
-    const linkWhatsApp = `https://wa.me/5585994066861?text=${mensagem}`;
+    const linkWhatsApp = `https://wa.me/558581544751?text=${mensagem}`;
   
     // Abre o link no WhatsApp
     window.open(linkWhatsApp, '_blank');
